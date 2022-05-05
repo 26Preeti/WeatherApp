@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    margin-top: 23px;
+}
+h1{
+    color: #270348;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+input{
+    font-size: 35px;
+    border: 4px solid #2196f3;
+    border-radius: 15px;
+}
+.Weather{
+    background-color: rgb(243, 247, 218);
+    padding: 25px;
+    border-radius: 25px;
+    display: inline-block;
+}
+button{
+    font-size: 35px;
+    background: #e1f3fa;
+    width: 102px;
+    height: 55px;
+    border-radius: 15px;
+}
