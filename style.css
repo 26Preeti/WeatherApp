@@ -27,3 +27,8 @@ button{
     height: 55px;
     border-radius: 15px;
 }
+.result{
+    background-color: rgb(241, 246, 249);
+    padding: 25px;
+    border-radius: 10px;
+}
