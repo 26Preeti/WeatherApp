@@ -1,6 +1,16 @@
 .container{
     text-align: center;
     margin-top: 23px;
+    background-image: url("bg-image.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100%;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
 }
 h1{
     color: #270348;
@@ -8,6 +18,10 @@ h1{
 }
 p{
     font-size: 30px;
+}
+.m{
+    font-size: 25px;
+    font-style: oblique;
 }
 input{
     font-size: 35px;
