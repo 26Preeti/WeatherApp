@@ -4,7 +4,7 @@ button.addEventListener("click", function (){
     let city=document.getElementById("city").value;
     let p=/^[A-z ,a-z0-9]*$/g;
     if(city!="" && p.test(city)){
-        if(/^[A-za-z0-9]*[" "]+[A-za-z0-9]*$/g.test(city)){
+        if(/^[A-z a-z0-9]*[" "]+[A-z a-z0-9]*$/g.test(city)){
            city=city.replace(/\s+/g," ");
         }
         let k=apk;
